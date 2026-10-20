@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NOVA Protocol: Infrastructure for the next generation of Web3 apps</title>
+  <meta name="description" content="NOVA Protocol is a fictional Web3 infrastructure concept. Portfolio project by Uzzy.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+  <div class="progress" id="progress"></div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container nav">
+      <a class="logo" href="#top" aria-label="NOVA Protocol home">
+        <img src="assets/favicon.svg" alt="" width="28" height="28">
+        NOVA Protocol
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks" aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#faq">FAQ</a>
+        <a href="#start" class="btn btn-small">Start building</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Infrastructure for the next generation of Web3 apps.</h1>
+          <p class="lead">Build, connect and scale decentralized applications with a developer-first infrastructure concept designed for a more connected Web3 ecosystem.</p>
+          <div class="actions">
+            <button class="btn btn-primary" data-scroll="#features">Explore the ecosystem</button>
+            <button class="btn btn-ghost" data-scroll="#faq">Read documentation</button>
+          </div>
+        </div>
+        <!-- <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 400 400">
+            <defs>
+              <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".55"/>
+                <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <circle cx="200" cy="200" r="190" fill="url(#glow)"/>
+            <circle class="ring" cx="200" cy="200" r="120" fill="none" stroke="#8B5CF6" stroke-opacity=".25" stroke-dasharray="4 8"/>
+            <circle class="ring ring-2" cx="200" cy="200" r="170" fill="none" stroke="#8B5CF6" stroke-opacity=".18" stroke-dasharray="2 10"/>
+            <g class="links" stroke="#8B5CF6" stroke-opacity=".55" stroke-width="1.5" fill="none">
+              <line x1="200" y1="200" x2="80" y2="90"/>
+              <line x1="200" y1="200" x2="320" y2="100"/>
+              <line x1="200" y1="200" x2="340" y2="260"/>
+              <line x1="200" y1="200" x2="230" y2="340"/>
+              <line x1="200" y1="200" x2="70" y2="280"/>
+              <line x1="80" y1="90" x2="320" y2="100"/>
+              <line x1="340" y1="260" x2="230" y2="340"/>
+              <line x1="70" y1="280" x2="80" y2="90"/>
+            </g>
+            <g fill="#171D35" stroke="#8B5CF6" stroke-width="2">
+              <circle class="node n1" cx="80" cy="90" r="12"/>
+              <circle class="node n2" cx="320" cy="100" r="16"/>
+              <circle class="node n3" cx="340" cy="260" r="11"/>
+              <circle class="node n4" cx="230" cy="340" r="14"/>
+              <circle class="node n5" cx="70" cy="280" r="13"/>
+            </g>
+            <circle cx="200" cy="200" r="30" fill="#8B5CF6"/>
+            <circle cx="200" cy="200" r="30" fill="none" stroke="#F8FAFC" stroke-opacity=".6" stroke-width="2" class="pulse"/>
+          </svg>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Built for what's next</h2>
+          <p>Six ideas that shape the NOVA concept, from the first line of code to a connected ecosystem.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 18l5-6 4 3 7-9"/><path d="M15 6h5v5"/></svg></div>
+            <h3>Scalable by design</h3>
+            <p>A concept focused on helping decentralized applications grow with their users.</p>
+          </article>
+          <article class="card reveal" style="--d:.1s">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5"/><path d="M16 7l5 5-5 5"/><path d="M14 4l-4 16"/></svg></div>
+            <h3>Developer-first tools</h3>
+            <p>A proposed toolkit to make building and integrating blockchain applications simpler.</p>
+          </article>
+          <article class="card reveal" style="--d:.2s">
+            <div class="icon"><svg viewBox="0 0 24 24"><circle cx="6" cy="12" r="3"/><circle cx="18" cy="6" r="3"/><circle cx="18" cy="18" r="3"/><path d="M8.7 10.5l6.6-3M8.7 13.5l6.6 3"/></svg></div>
+            <h3>Connected ecosystem</h3>
+            <p>A vision for applications and services that work better together.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6M10 6l-6 6 6 6"/></svg></div>
+            <h3>Interoperable by default</h3>
+            <p>An idea for moving data and value between networks without custom bridges for every app.</p>
+          </article>
+          <article class="card reveal" style="--d:.1s">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+            <h3>Secure foundations</h3>
+            <p>A focus on clear permissions, audits and safe defaults before any feature ships.</p>
+          </article>
+          <article class="card reveal" style="--d:.2s">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M5 4h10l4 4v12H5z"/><path d="M14 4v5h5M8 13h8M8 17h6"/></svg></div>
+            <h3>Clear documentation</h3>
+            <p>Guides, examples and plain language that help a new builder ship in an afternoon.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section alt" id="how">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>From idea to live app in three steps</h2>
+          <p>The concept keeps the path short, so teams spend time on their product, not their plumbing.</p>
+        </div>
+        <ol class="steps">
+          <li class="reveal"><span class="step-num">1</span><h3>Connect</h3><p>Link your app to the network layer and choose the chains and services you need.</p></li>
+          <li class="reveal" style="--d:.15s"><span class="step-num">2</span><h3>Build</h3><p>Use the SDK, templates and testing tools to add features without reinventing basics.</p></li>
+          <li class="reveal" style="--d:.3s"><span class="step-num">3</span><h3>Scale</h3><p>Grow your user base while the infrastructure handles load, monitoring and upgrades.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Use cases -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Where NOVA could fit</h2>
+          <p>Different teams, one connected foundation.</p>
+        </div>
+        <div class="grid grid-4">
+          <article class="card reveal"><h3>DeFi platforms</h3><p>Faster launches for lending, trading and savings tools.</p></article>
+          <article class="card reveal" style="--d:.1s"><h3>Web3 games</h3><p>Smooth player onboarding and assets that travel between worlds.</p></article>
+          <article class="card reveal" style="--d:.2s"><h3>DAOs and communities</h3><p>Voting, rewards and membership tools in one place.</p></article>
+          <article class="card reveal" style="--d:.3s"><h3>Creator platforms</h3><p>Simple ways to publish, own and share digital work.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roadmap -->
+    <section class="section alt" id="roadmap">
+      <div class="container narrow">
+        <div class="section-head reveal">
+          <h2>A concept roadmap</h2>
+          <p>An illustrative path from idea to open ecosystem.</p>
+        </div>
+        <ol class="timeline">
+          <li class="reveal"><h3>Concept</h3><p>Define the vision, brand and developer experience.</p></li>
+          <li class="reveal"><h3>Toolkit</h3><p>Sketch the SDK, docs and testing tools.</p></li>
+          <li class="reveal"><h3>Ecosystem</h3><p>Invite builders and partners to shape the network.</p></li>
+          <li class="reveal"><h3>Open network</h3><p>Hand governance to the community.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Community -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Join the conversation</h2>
+          <p>Great infrastructure needs a great community. Say hello and follow along.</p>
+        </div>
+        <div class="grid grid-2">
+          <a class="card link-card reveal" href="https://t.me/meet_uzzy" target="_blank" rel="noopener noreferrer"><h3>Telegram</h3><p>Chat directly and get quick updates.</p></a>
+          <a class="card link-card reveal" href="https://x.com/meet_uzzy?s=11" target="_blank" rel="noopener noreferrer" style="--d:.1s"><h3>X (Twitter)</h3><p>Follow announcements and community highlights.</p></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section alt" id="faq">
+      <div class="container faq-wrap">
+        <div class="reveal">
+          <h2>Questions, answered</h2>
+          <p class="muted">Quick answers about the concept behind this page.</p>
+        </div>
+        <div class="accordion reveal" style="--d:.1s">
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false" aria-controls="a1" id="q1">What is NOVA Protocol?</button>
+            <div class="faq-a" id="a1" role="region" aria-labelledby="q1"><div><p>NOVA Protocol is a design concept for Web3 infrastructure. It shows how a developer-focused project could explain itself clearly.</p></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false" aria-controls="a2" id="q2">Is this a real blockchain project?</button>
+            <div class="faq-a" id="a2" role="region" aria-labelledby="q2"><div><p>No. NOVA Protocol is fictional and is not an operating blockchain project. There is no token, network or product to use.</p></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false" aria-controls="a3" id="q3">What does developer-first mean here?</button>
+            <div class="faq-a" id="a3" role="region" aria-labelledby="q3"><div><p>It means tools and documentation come before hype. The goal is for builders to understand what they can do in minutes.</p></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false" aria-controls="a4" id="q4">Does this site connect to a wallet?</button>
+            <div class="faq-a" id="a4" role="region" aria-labelledby="q4"><div><p>No. This is a static landing page with no wallet connection and no backend.</p></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false" aria-controls="a5" id="q5">Who made this page?</button>
+            <div class="faq-a" id="a5" role="region" aria-labelledby="q5"><div><p>Uzzy, a Web3 community manager and website developer, built it as a portfolio concept.</p></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false" aria-controls="a6" id="q6">Can I hire Uzzy to build something similar?</button>
+            <div class="faq-a" id="a6" role="region" aria-labelledby="q6"><div><p>Yes. Pages like this can be adapted for real early-stage Web3 projects. Reach out through the contact links on his profile.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section" id="start">
+      <div class="container cta-box reveal">
+        <h2>Build beyond boundaries</h2>
+        <p>The next generation of decentralized applications starts with better tools, clearer experiences and a more connected ecosystem.</p>
+        <button class="btn btn-primary" data-scroll="#top">Start building</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="#top"><img src="assets/favicon.svg" alt="" width="28" height="28">NOVA Protocol</a>
+        <p class="muted">Infrastructure for the next generation of Web3 apps.</p>
+      </div>
+      <nav aria-label="Explore"><h4>Explore</h4><a href="#features">Features</a><a href="#how">How it works</a><a href="#roadmap">Roadmap</a></nav>
+      <nav aria-label="Build"><h4>Build</h4><a href="#faq">FAQ</a><a href="#start">Get started</a></nav>
+    </div>
+    <div class="container legal"><p>Portfolio concept by Uzzy. NOVA Protocol is fictional and is not an operating blockchain project.</p></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
